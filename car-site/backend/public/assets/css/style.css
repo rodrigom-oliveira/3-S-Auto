@@ -1,0 +1,46 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::selection {
+  background: #b3d4fc; /* WebKit/Blink Browsers */
+  text-shadow: none; /* WebKit/Blink Browsers */
+}
+
+hr {
+  display: block; /* Make sure the HR is a block element */
+  height: 1px; /* Set the HR height */
+  border: 0; /* Clear the border */
+  border-top: 1px solid #ccc; /* Apply the border-top */
+  margin: 1em 0; /* Add some space below the HR */
+  padding: 0; /* Clear the padding */
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; /* Align the image vertically */
+}
+
+fieldset {
+  border: 0; /* Remove the border */
+  margin: 0; /* Remove the margin */
+  padding: 0; /* Remove the padding */
+}
+
+textarea {
+  resize: vertical; /* Allow the user to resize the textarea vertically */
+}
+
+body {
+  font-family: Arial, sans-serif; /* Use the Arial font */
+  margin: 0; /* Remove the margin */
+  padding: 0; /* Remove the padding */
+}
+
+
